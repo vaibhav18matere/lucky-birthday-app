@@ -1,58 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 
-:root{
-    --primary-dark:#1f2937;
-    --primary-green:#6ee787;
+:root {
+    --primary-dark: #111827;
+    --primary-orange: #f0b30d;
+    --primary-blue: #1755a0;
+
 }
 
+/* 
+.container{
+    width: 50%;
+    margin: auto;
+}
 
-.alert {
-    padding: 1rem;
-    margin: 1rem 0 5rem 0;
-    background-color: var(--primary-green);
-    color: var(--primary-dark);
-    font-weight: bolder;
-  }
-  
-  .closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
+.dob{
+    margin: 5rem;
+}
+input{
+    font-size: large;
+    margin-bottom: 0.5rem;
+}
+
+input,label{
+     display: block;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: var(--primary-blue);
+    color: #FFFFFF;
+    border-radius: 0.5rem;
+    border: none;
+    border-width: medium;
     cursor: pointer;
-    transition: 0.3s;
-  }
+    font-size: large;
+} */
 
 
-body{
-    background-color:var(--primary-dark) ;
-    color: var(--primary-green);
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-
-/* to hide arrays in input field */
+/* hiding arrows from input section */
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+input::-webkit-inner-spin-button 
+{
   -webkit-appearance: none;
   margin: 0;
-}
-
-input{
-    border-radius: 1rem;
-    height: 6vh;
-    width: 30%;
-    font-size: 2rem;
-}
-
-button{
-    display: block;
-    margin:auto;
-    background: transparent;  
-    color:  var(--primary-green);
-    padding: 0.5rem;
-    border-radius: 2rem;
-    cursor: pointer;
 }
