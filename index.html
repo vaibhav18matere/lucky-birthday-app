@@ -9,30 +9,32 @@
 </head>
 
 <body>
+    <div class="mainDiv">
+        <div id="privacy-policy" class='privacyMsg'>
+            Privacy Notice - We respect your privacy and we are not storing your data.   
+            <button id="privacy-button">x</button>
+        </div>
     
-    <div id="privacy-policy">
-        Privacy Notice - We respect your privacy and we are not storing your data.   
-        <button id="privacy-button">x</button>
-    </div>
-
-    <h1>Is your birthdate lucky ? </h1>
-    <p>Enter Your date of birth and lucky number below...</p>
-    
-    <div class="container">
-
-        <label for="birthdayDate">Birthday date :</label> 
-        <input type="date" id="birthdayDate"> 
-      
-        <label for="lucky-number">Lucky number :</label>
-        <input type="number" id="lucky-number">
-    
-        <button id="check-number">Check number</button>
-
-        <button onclick={location.reload()}>Reset</button>
-
-        <div id="output-box"> </div>
+        <h1>Is your birthdate lucky ? </h1>
+        <p>Enter Your date of birth and lucky number below...</p>
         
+        <div class="container">
+    
+            <label for="birthdayDate"><h3>Birthday date :</h3></label> 
+            <input type="date" id="birthdayDate"> 
+          
+            <label for="lucky-number"><h3>Lucky number :</h3></label>
+            <input type="number" class="luckyNum" id="lucky-number">
+        
+            <button id="check-number">Check number</button>
+    
+            <button onclick={location.reload()}>Reset</button>
+    
+            <div id="output-box" class="outputBox"> </div>
+    
+        </div>
     </div>
+   
 
 <script src="./app.js" ></script>
 </body>

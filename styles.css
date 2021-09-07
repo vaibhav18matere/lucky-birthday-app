@@ -1,12 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-:root {
-    --primary-dark: #111827;
-    --primary-orange: #f0b30d;
-    --primary-blue: #1755a0;
-
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(213,166,208);
+    background: radial-gradient(circle, rgba(213,166,208,1) 0%, rgba(96,162,201,1) 100%);
+}
+.mainDiv{
+    height: 60vh;
+    width: 40%;
+    margin: 15vh auto;
+    box-shadow: 2px 2px 8px 13px #424b6c;
+}
+.privacyMsg{
+    box-shadow: rgb(221 192 192) 2px 2px 8px 3px;
+    background: rgb(190, 62, 62);
+    color: white;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+.container input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    color: black;
+}
+
+.container button{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: rgba(96,162,201,1);   
+    color: #FFFFFF;
+    border-radius: 0.5rem;
+    border: none;
+    border-width: medium;
+    cursor: pointer;
+    font-size: large;
+}
+
+.container button:hover{
+    background-color:rgb(7, 68, 103);
+}
+
+.outputBox{
+    margin: 5px;
+    font-size: 1.2rem;
+    border-bottom: 3px solid grey;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
 /* 
 .container{
     width: 50%;
