@@ -7,9 +7,9 @@ const privacyNote = document.querySelector("#privacy-policy");
 
 function compareValues(sum, luckyNumber) {
     if (sum % luckyNumber === 0) {
-        outputBox.innerText = "Your birthday is lucky 🎂🥳";
+        outputBox.innerText = "Your birthday date is lucky 🎂🥳";
     } else {
-        outputBox.innerText = "Your birthday is not lucky 😖";
+        outputBox.innerText = "Your birthday date is not so lucky 🙁";
     }
 }
 
