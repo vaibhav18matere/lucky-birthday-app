@@ -60,49 +60,16 @@ body{
     padding: 5px 20px;
     border-radius: 5px;
 }
-/* 
-.container{
-    width: 50%;
-    margin: auto;
-}
-
-.dob{
-    margin: 5rem;
-}
-input{
-    font-size: large;
-    margin-bottom: 0.5rem;
-}
-
-input,label{
-     display: block;
-}
-
-button {
-    display: block;
-    margin: auto;
-    margin-top: 1rem;
-    padding: 0.5rem;
-    background-color: var(--primary-blue);
-    color: #FFFFFF;
-    border-radius: 0.5rem;
-    border: none;
-    border-width: medium;
-    cursor: pointer;
-    font-size: large;
-} */
-
 
 /* hiding arrows from input section */
-input::-webkit-outer-spin-button,
+/* input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button 
 {
   -webkit-appearance: none;
   margin: 0;
-}
+} */
 
 /* footer styles */
-
 footer p {
     font-size: large;
     text-align: center;
