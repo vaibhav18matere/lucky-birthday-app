@@ -6,7 +6,13 @@ const privacyPolicyBtn = document.querySelector("#privacy-button");
 const privacyNote = document.querySelector("#privacy-policy");
 
 function compareValues(sum, luckyNumber) {
-    if (sum % luckyNumber === 0) {
+
+    if (Number(!luckyNumber)) {
+        return outputBox.innerText = "Please enter your lucky number too"
+    } else if (Number(luckyNumber < 0)) {
+        return outputBox.innerText = "Please enter positive number"
+    }
+    else if (sum % luckyNumber === 0) {
         outputBox.innerText = "Your birthday date is lucky 🎂🥳";
     } else {
         outputBox.innerText = "Your birthday date is not so lucky 🙁";

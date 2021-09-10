@@ -4,7 +4,6 @@ body{
     font-family: 'Roboto', sans-serif;
     margin:0;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     background: rgb(213,166,208);
     background: radial-gradient(circle, rgba(213,166,208,1) 0%, rgba(96,162,201,1) 100%);
 }
@@ -60,16 +59,6 @@ body{
     padding: 5px 20px;
     border-radius: 5px;
 }
-
-/* hiding arrows from input section */
-/* input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button 
-{
-  -webkit-appearance: none;
-  margin: 0;
-} */
-
-/* footer styles */
 footer p {
     font-size: large;
     text-align: center;
