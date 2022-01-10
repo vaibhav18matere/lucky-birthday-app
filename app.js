@@ -5,7 +5,7 @@ const outputBox = document.querySelector("#output-box");
 const privacyPolicyBtn = document.querySelector("#privacy-button");
 const privacyNote = document.querySelector("#privacy-policy");
 
-function compareValues(sum, luckyNumber) {
+const compareValues = (sum, luckyNumber) => {
 
     if (Number(!luckyNumber)) {
         return outputBox.innerText = "Please enter your lucky number too"
@@ -13,13 +13,13 @@ function compareValues(sum, luckyNumber) {
         return outputBox.innerText = "Please enter positive number"
     }
     else if (sum % luckyNumber === 0) {
-        outputBox.innerText = "Your birthday date is lucky 🎂🥳";
+        outputBox.innerText = "Yeyy... Your birthday date is lucky 🎂🥳";
     } else {
-        outputBox.innerText = "Your birthday date is not so lucky 🙁";
+        outputBox.innerText = "Ohh..! Your birthday date is not so lucky 🙁";
     }
 }
 
-function checkBirthdateIsLucky() {
+const checkBirthdateIsLucky = () => {
     const dob = dateOfBirth.value;
     const sum = calculateSum(dob);
     if (dob && sum)
@@ -28,7 +28,7 @@ function checkBirthdateIsLucky() {
         outputBox.innerText = "Please enter both the fields !";
 }
 
-function calculateSum(dob) {
+const calculateSum = (dob) => {
     dob = dob.replaceAll("-", "0");
     let sum = 0;
     for (let i = 0; i < dob.length; i++) {
